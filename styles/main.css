@@ -1,0 +1,33 @@
+body.main
+{
+    background: rgb(163,255,134);
+    background: linear-gradient(90deg, rgba(163,255,134,1) 0%, rgba(39,209,176,1) 27%, rgba(0,212,255,1) 73%, rgba(163,255,134,1) 100%);
+}
+
+p.red
+{
+    color: red;
+    font-family: sans-serif;
+}
+p.blue
+{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.white
+{
+    color: white;
+    font-family: sans-serif;
+}
+p.black
+{
+    color: black;
+    font-family: sans-serif;
+}
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
