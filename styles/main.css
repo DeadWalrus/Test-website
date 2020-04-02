@@ -31,3 +31,9 @@ p.black
     margin-right: auto;
     width: 10%;
 }
+label.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
