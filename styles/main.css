@@ -23,6 +23,7 @@ p.black
 {
     color: black;
     font-family: sans-serif;
+    user-select: none;
 }
 .center
 {
@@ -30,10 +31,13 @@ p.black
     margin-left: auto;
     margin-right: auto;
     width: 10%;
+    user-select: none;
 }
 label.center
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 0%;
+    user-select: none;
 }
