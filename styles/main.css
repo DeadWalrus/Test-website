@@ -1,7 +1,7 @@
 body.main
 {
-    background: rgb(163,255,134);
-    background: linear-gradient(90deg, rgba(163,255,134,1) 0%, rgba(39,209,176,1) 27%, rgba(0,212,255,1) 73%, rgba(163,255,134,1) 100%);
+    background: #1904fc;
+    /*background: linear-gradient(90deg, rgba(163,255,134,1) 0%, rgba(39,209,176,1) 27%, rgba(0,212,255,1) 73%, rgba(163,255,134,1) 100%); */
 }
 
 p.red
@@ -35,9 +35,31 @@ p.black
 }
 label.center
 {
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 0%;
     user-select: none;
+}
+.sidebar
+{
+    background-color: #9304fa;
+    border-color: black;
+    border-width: 5px;
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.sidebar a
+{
+    padding: 10, 8, 10, 15;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.sidebar a:hover
+{
+    color: #04d5fa;
 }
