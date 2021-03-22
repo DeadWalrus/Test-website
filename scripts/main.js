@@ -1,5 +1,5 @@
-const heading = document.querySelector('h1');
-heading.textContent = 'SHEEEIT';
+/*const heading = document.querySelector('h1');
+heading.textContent = 'SHEEEIT';*/
 let cc = 0;
 document.querySelector('html').onclick = function()
 {

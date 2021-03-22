@@ -42,6 +42,10 @@ label.center
     width: 0%;
     user-select: none;
 }
+h1.mainhead
+{
+    user-select: none;
+}
 .sidebar
 {
     background-color: #9304fa;
